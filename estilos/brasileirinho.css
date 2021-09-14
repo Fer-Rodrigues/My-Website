@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.button-menu{
+    color: rgb(83, 151, 179);     
+    background-color: rgb(0, 15, 44); 
+    padding: 10px; 
+    margin: 5px; 
+    border-radius: 30px;       
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    text-decoration: none;    
+
+}
+
+.button-menu:hover{
+    color: rgb(114, 0, 0);
+    background-color: rgb(250, 176, 176);
+}
+
+.class-body{
+    background-image: url(../imagens/guriafofa.jpg);
+    background-size: cover;
+    backdrop-filter:blur(5px);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.jessica-menu{
+    padding: 10px;
+    margin: 5px;
+    list-style-type: none;
+    display: inline;
+}
+
+.menu{
+    margin: 10px;
+    padding: 5px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.texto{
+    color:rgb(0, 2, 37);
+    font-size: 100px;
+    margin: 20px;
+    user-select: none;
+    transition: 0.2s;
+}
+
+.texto:hover{
+    color: rgb(174, 191, 246);
+    transform: scale(1.05);
+    
+}
+
+.texto:active{
+    color: rgb(255, 104, 124);
+}
+
+.textinho{
+    color:rgb(0, 2, 37);
+    font-size: 40px;
+    margin:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    user-select: none;
+    transition: 0.2s;
+}
+
+.textinho:hover{
+    color: rgb(174, 191, 246);
+    transform: scale(1.05);
+}
+
+.textinho:active{
+    color:rgb(255, 104, 124);
+}
+
+.imagenlinda{
+    border-radius: 30px;
+    border: 5px solid rgb(0, 2, 37);
+    user-select: none;
+    transition: 0.2s;
+}
+
+.imagenlinda:hover{
+    border-color: rgb(174, 191, 246);
+    transform: scale(1.05);
+}
+
+.imagenlinda:active{
+    border-color: rgb(255, 104, 124);
+}
