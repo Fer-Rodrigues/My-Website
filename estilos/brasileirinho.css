@@ -114,6 +114,9 @@
     
     .class-body{
         background-image: url(../imagens/guriafofa_mobile.jpg);
+        background-size: cover;
+        background-position: center center;
+        backdrop-filter:blur(8px);
     }
 
 }
