@@ -22,6 +22,7 @@
 .class-body{
     background-image: url(../imagens/guriafofa.jpg);
     background-size: cover;
+    background-position: center center;
     backdrop-filter:blur(5px);
     width: 100vw;
     height: 100vh;
@@ -99,4 +100,20 @@
 
 .imagenlinda:active{
     border-color: rgb(255, 104, 124);
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px){
+    
+    .class-body{
+        background-image: url(../imagens/guriafofa_mobile.jpg);
+    }
+
 }
